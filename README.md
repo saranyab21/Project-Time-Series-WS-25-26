@@ -80,23 +80,23 @@ Best result: Combined + SVM-RBF, AUC **0.85 ± 0.04**
 ---
 
 ## Requirements
-```
-python >= 3.8
-tsfresh
-scikit-learn
-pandas
-numpy
-scipy
-matplotlib
-seaborn
-```
 
-Install with:
-```bash
-pip install -r requirements.txt
-```
+Dependencies are managed via conda. Python 3.10 is required.
+
+Key packages: `tsfresh`, `scikit-learn`, `numpy`, `pandas`, `matplotlib`, `seaborn`
 
 ---
+
+## Installation
+```bash
+# Clone the repository
+git clone https://github.com/saranyab21/Project-Time-Series-WS-25-26.git
+cd Project-Time-Series-WS-25-26
+
+# Create and activate the conda environment
+conda env create -f environment.yml
+conda activate gait_mamba
+```
 
 ## Usage
 ```bash
