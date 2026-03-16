@@ -14,7 +14,7 @@ Run TSFresh pipeline first so that these files exist in data/processed:
     features_combined_agg.parquet
     subject_overview.csv  (must contain column 'group' with 0=HC, 1=PD)
 
-OutputsFFz
+Outputs
 -------
   - reports/baseline_folds.csv
       Per-fold metrics for each Dataset × Model × OuterFold.

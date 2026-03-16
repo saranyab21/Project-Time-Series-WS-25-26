@@ -5,7 +5,7 @@ from pathlib import Path
 # ---------------------------------------------------------------------
 # 1. Load results
 # ---------------------------------------------------------------------
-summary_path = "C:/Users/admin/OneDrive/Desktop/SEM-2-3/Project-Time Series/gait-mamba/reports/baseline_result_summary.csv"  # adapt if needed
+summary_path = "C:/Users/admin/OneDrive/Desktop/SEM-2-3/Project-Time Series/gait-mamba/reports/baseline_result_summary.csv"  
 df = pd.read_csv(summary_path)
 
 dataset_order = ["Left", "Right", "Combined"]
@@ -24,7 +24,7 @@ model_labels = {
 fig_dir = Path("reports/figs")
 fig_dir.mkdir(parents=True, exist_ok=True)
 
-# FAU-ish blue/teal palette + neutral grey
+# color_palette
 color_blue = "#1f77b4"   # dark blue
 color_teal = "#00a6a6"   # teal
 color_grey = "#6c757d"   # neutral grey
@@ -119,7 +119,7 @@ ax.grid(axis="y", linestyle="--", alpha=0.25)
 ax.tick_params(axis="y", labelsize=12)
 ax.tick_params(axis="x", labelsize=12)
 
-# --- annotate values clearly above bars ---
+# --- annotating values clearly above bars ---
 for xi, yi in zip(x2, means2):
     ax.text(
         xi, yi + 0.004,           # small offset above bar

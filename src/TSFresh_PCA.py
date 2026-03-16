@@ -82,7 +82,7 @@ class CFG:
 
     FS = float(os.environ.get("FS", "100.0"))  # Hz
 
-    # Window/step in ms (these defaults were used for your final plots)
+    # Window/step in ms
     WIN_MS  = int(os.environ.get("WIN_MS",  "300"))
     STEP_MS = int(os.environ.get("STEP_MS", "150"))
 
