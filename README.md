@@ -130,4 +130,4 @@ python baseline_models.py
 
 ## Author
 
-**Saranya Bhattacaharjee (aj81owid)**
+**Saranya Bhattacharjee (aj81owid)**
